@@ -1,0 +1,7 @@
+body{
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+.degradado { 
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+}

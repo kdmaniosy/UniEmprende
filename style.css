@@ -1,0 +1,60 @@
+body{
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+.degradado { 
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+}
+
+.degradado-menu{
+    background: linear-gradient(120deg, #ff3e35, #ff7044);
+}
+
+.boton-largo {
+    width: 125px;
+    border-radius: 25px; 
+}
+
+.boton-servicios{
+    width: 250px;
+    border-radius: 25px; 
+    padding-top: 12px; /* Padding arriba */ 
+    padding-bottom: 12px; /* Padding abajo */
+}
+
+.navbar-nav { 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.welcome-box {
+    display: inline-block;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    font-weight: bold; /* Texto en negrita */
+    padding: 5px 85px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle relieve */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    font-size: 2.5rem; /* Tamaño del texto */
+}
+
+.letra-grande{
+    font-size: 3.5rem; /* Tamaño del texto */
+}
+
+.letra-texto{
+    font-size: 1.5rem;
+}
+
+.letra-tabla{
+    font-size: 3rem;
+}
+
+.fondo-imagen1{
+    background-color: #ffffff;
+}
+
+.fondo-imagen2{
+    background-color: #ffffff;
+}

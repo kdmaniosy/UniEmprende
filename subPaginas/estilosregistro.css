@@ -1,0 +1,30 @@
+body{
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+.degradado { 
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+}
+
+.input-largo {
+    width: 500px;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.letra-texto{
+    font-size: 3.5rem;
+}
+
+.link-centrado{
+    font-size: 1.5rem;
+}
+
+.boton-largo{
+    width: 225px;
+    border-radius: 25px; 
+    padding-top: 12px; /* Padding arriba */ 
+    padding-bottom: 12px; /* Padding abajo */
+}
