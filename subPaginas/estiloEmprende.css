@@ -2,10 +2,6 @@ body{
     font-family: 'Host Grotesk', sans-serif;
 }
 
-.degradado { 
-    background: linear-gradient(120deg, #ff3131, #ff914d);
-}
-
 .input-largo {
     width: 500px;
     margin-left: auto; 
@@ -14,12 +10,9 @@ body{
     border-radius: 15px;
 }
 
-.letra-texto{
-    font-size: 3.5rem;
-}
-
-.link-centrado{
-    font-size: 1.5rem;
+.degradado { 
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+    height: 100vh;
 }
 
 .boton-largo{
@@ -29,12 +22,15 @@ body{
     padding-bottom: 12px; /* Padding abajo */
 }
 
-.mi-imagen {
-    width: 200px; /* Ancho del 50% del contenedor */
-    margin: auto;
+.posicion{
+    margin-left: 175px;
 }
 
-.ubicacion-foto{
-    width: 200px;
+.letra-texto{
+    font-size: 1.5rem;
+}
+
+.tamaño-imagen{
+    width: 550px;
     margin: auto;
 }
