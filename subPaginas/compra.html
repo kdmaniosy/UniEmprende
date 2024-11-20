@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="compras.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary degradado">
+            <div class="container-fluid">
+                <!-- Espacio para el logo -->
+                <img src="img/logo.png" alt="logo" width="80px" class="mx-3">
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#"><strong>INICIO</strong></a>
+                        </li>
+                        <li>
+                            <select class="form-select seleccionar">
+                                <option selected>Categorias</option>
+                                <option value="1">Servicios</option>
+                                <option value="2">Ropa y accesorios</option>
+                                <option value="3">Comida</option>
+                                <option value="4">Articulos varios</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-center w-100">
+                        <div class="input-group input-grande">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                            <a href="#" class="input-group-text btn btn-light">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <a class="nav-link mx-3 tamaño-sesion" href="iniciarsecion.html"><strong>INICIA SESION</strong></a>
+                    <form class="d-flex">
+                        <a href="registro.html" class="btn btn-light boton-largo mx-3"><strong>REGISTRATE</strong></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="container my-5">
+                    <div class="row bg-body-tertiary redondeado">
+                        <div class="row m-3">
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="img/crochetlogo.jpeg" alt="Imagen Redonda" class="rounded-circle border border-black" style="width: 100px; height: 100px;">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="#"  class="letra-titulos link-dark link-offset-2 link-underline link-underline-opacity-0"><strong>Ami Lovegurumi</strong></a>
+                                    </div>
+                                    <div class="col ">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-center letra-texto">8:35 PM </p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="letra-texto">21/11/2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="letra-texto">
+                                        Hoy jueves en la tarde estoy en la biblioteca de la universidad con <br>
+                                        varios productos de mi tienda por si quieren verlos y pedir algo!!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!-- Imagenes -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="img/amigurumi1.jpeg" alt="a1" class="tamaño-imagenUP m-2">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="img/amigurumi2.jpeg" alt="a2" class="tamaño-imagenUP m-2">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-bottom border-light-subtle my-5"></div>
+                    <!-- Por aca va la segunda publicacion -->
+
+                    <div class="row bg-body-tertiary redondeado">
+                        <div class="row m-3">
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="img/AndresLogo.jpeg" alt="Imagen Redonda" class="rounded-circle border border-black" style="width: 100px; height: 100px;">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col">
+                                        <h1 class="letra-titulos"><strong>A & D Store</strong></h1>
+                                    </div>
+                                    <div class="col ">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-center letra-texto">11:07 AM </p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="letra-texto">25/11/2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p class="letra-texto">
+                                        En busca de ropa nueva y con buen estilo? No pienses más y mira <br>
+                                        nuestro catalogo virtual, si estas en la universidad te mostramos la <br>
+                                        ropa en fisico
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> <!-- Imagenes -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img src="img/Andres1.jpeg" alt="a1" class="tamaño-imagenUP m-2">
+                                    </div>
+                                    <div class="col-6">
+                                        <img src="img/Andres2.jpeg" alt="a2" class="tamaño-imagenUP m-2">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-bottom border-light-subtle my-5"></div>
+                    <!-- Tercera publicacion -->
+                    <div class="row bg-body-tertiary redondeado">
+                        <div class="row m-3">
+                            <div class="col-2">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="img/KarolLogo.jpeg" alt="Imagen Redonda" class="rounded-circle border border-black" style="width: 100px; height: 100px;">
+                                </div>
+                            </div>
+                            <div class="col-10">
+                                <div class="row">
+                                    <div class="col">
+                                        <h1 class="letra-titulos"><strong>ToBe Ready</strong></h1>
+                                    </div>
+                                    <div class="col ">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="text-center letra-texto">8:43 AM </p>
+                                            </div>
+                                            <div class="col">
+                                                <p class="letra-texto">23/11/2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p  class="letra-texto"><strong>¡Mejora tu inglés con nuestras asesorias personalizadas!</strong></p>
+                                    <p class="letra-texto">
+                                        Ofrecemos asesorías de inglés personalizadas para ayudarte a <br>
+                                        alcanzar tus metas. Ya sea que necesites mejorar tu gramática, <br>
+                                        vocabulario, comprensión auditiva o habilidades de conversación, <br>
+                                        estamos aquí para ayudarte.
+                                        <br> <br>
+                                        Comunícate con nosotros al +57 315 429 2440 y comienza tu <br>
+                                        aprendizaje en este nuevo idioma.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="container my-5">
+                    <div class="row my-5">
+                        <p class="text-center letra-titulos"><strong>Te puede interesar</strong></p>
+                    </div>
+                    <div class="row">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="https://th.bing.com/th/id/R.3e00a4fa7cbb6e72bd563bd74afd51e1?rik=%2fXnTe1c%2bHLIiBw&riu=http%3a%2f%2fst.depositphotos.com%2f2001403%2f3103%2fi%2f950%2fdepositphotos_31033925-Vintage-old-books.jpg&ehk=17I2JsiqysDiE1d3Y5gpJBeI02VeGvaO%2bbOkd7TMBiY%3d&risl=&pid=ImgRaw&r=0" alt="Imagen Redonda" class="rounded-circle" style="width: 150px; height: 150px;">
+                        </div>
+                        <div class="my-2 d-flex justify-content-center align-items-center">
+                            <div class="welcome-box">SERVICIOS</div>
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="https://th.bing.com/th/id/OIP.ewk1-yeo2vDdg_vfDL392wHaFG?rs=1&pid=ImgDetMain" alt="Imagen Redonda" class="rounded-circle" style="width: 150px; height: 150px;">
+                        </div>
+                        <div class="my-2 d-flex justify-content-center align-items-center">
+                            <div class="welcome-boxes text-center">ROPA Y <br> ACCESORIOS</div>
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="https://th.bing.com/th/id/OIP.vdnFRIfHSYXSOYVKS_5UnAHaEo?rs=1&pid=ImgDetMain" alt="Imagen Redonda" class="rounded-circle" style="width: 150px; height: 150px;">
+                        </div>
+                        <div class="my-2 d-flex justify-content-center align-items-center">
+                            <div class="welcome-box text-center">COMIDA</div>
+                        </div>
+                    </div>
+
+                    <div class="row my-5">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="https://th.bing.com/th/id/R.3ede053c90c5c55fe2b30654556d82a4?rik=rrwRZaKpg%2b1Rsg&pid=ImgRaw&r=0" alt="Imagen Redonda" class="rounded-circle" style="width: 150px; height: 150px;">
+                        </div>
+                        <div class="my-2 d-flex justify-content-center align-items-center">
+                            <div class="welcome-boxes text-center">VARIOS <br> ARTICULOS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

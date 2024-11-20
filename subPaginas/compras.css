@@ -1,0 +1,66 @@
+body{
+    font-family: 'Host Grotesk', sans-serif;
+}
+
+.degradado { 
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+}
+
+.boton-largo {
+    width: 125px;
+    border-radius: 25px; 
+}
+
+.seleccionar{
+    width: 150px;
+    border-radius: 25px; 
+}
+
+.input-grande {
+    max-width: 500px; /* Limita el ancho máximo */
+    width: 100%;      /* Asegura que se adapte a diferentes tamaños */
+}
+
+.tamaño-sesion{
+    width: 200px;
+}
+
+.letra-titulos{
+    font-size: 1.5rem;
+}
+
+.letra-texto{
+    font-size: 1rem;
+}
+
+.tamaño-imagenUP{
+    width: 100%;
+}
+
+.welcome-box {
+    display: inline-block;
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+    color: #ffffff; 
+    font-weight: bold; 
+    padding: 5px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle relieve */
+    text-transform: uppercase; /* Texto en mayúsculas */
+     /* Tamaño del texto */
+}
+
+.welcome-boxes {
+    display: inline-block;
+    background: linear-gradient(120deg, #ff3131, #ff914d);
+    color: #ffffff; 
+    font-weight: bold; 
+    padding: 1px 20px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle relieve */
+    text-transform: uppercase; /* Texto en mayúsculas */
+     /* Tamaño del texto */
+}
+
+.redondeado{
+    border-radius: 20px;
+}
