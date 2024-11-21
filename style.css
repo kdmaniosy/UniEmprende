@@ -58,3 +58,20 @@ body{
 .fondo-imagen2{
     background-color: #ffffff;
 }
+
+.posicion-foto1{
+    position: absolute;
+    top: 260px;
+    right: 880px;
+    /* bottom: 10px;
+    left: 10px; */
+}
+
+.posicion-foto2{
+    position: absolute;
+    top: 980px;
+    right: 810px;
+    width: 680px;
+    /* bottom: 10px;
+    left: 10px; */
+}
